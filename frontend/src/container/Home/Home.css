@@ -1,0 +1,130 @@
+.header {
+  background-color: #258777;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  border: 2px solid white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  top: 20px;
+  right: 20px;
+  width: -webkit-fill-available;
+}
+
+.header__right {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.header_title p {
+  color: white;
+  overflow: hidden;
+  word-break: break-all;
+  min-width: max-content;
+}
+
+.lineee {
+  width: 2px;
+  border: 1px solid white;
+  height: 30px;
+}
+
+.header_title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header_title_name {
+  font-size: 15px;
+}
+
+.wrapper__head_btn svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.wrapper__head_btn {
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: transparent !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home_wrapper {
+  width: 100%;
+  min-height: inherit;
+}
+
+.wrapper__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  max-width: 560px;
+  margin: 0 auto;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+
+.wrapper__head__profile p {
+  color: #0f1e29;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.wrapper__phishing {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.wrapper__phishing__inp {
+  width: 100%;
+  padding-right: 170px;
+  border-width: 2px;
+  border-color: #258777;
+  font-size: 28px;
+  height: 72px;
+}
+
+.wrapper__phishing__inp::placeholder {
+  color: #8b8c90;
+}
+
+.wrapper__phishing__inp_disabled {
+  background: grey;
+}
+
+.wrapper__phishing_btn {
+  border-radius: 0 8px 8px 0;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  height: 72px;
+  max-width: 160px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background-color: #258777 !important;
+  border: 2px solid white;
+}
+
+.wrapper__list {
+  gap: 28px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 560px;
+  width: 100%;
+  margin: 42px auto 40px;
+}
